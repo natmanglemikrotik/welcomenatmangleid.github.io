@@ -1,1 +1,1 @@
-natmangleid.github.io
+https://natmanglemikrotik.github.io/natmangleid.github.io/
