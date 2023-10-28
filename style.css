@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --textColor: white;
+}
+
+/**********BASIC STYLES**********/
+html {
+    background-attachment: fixed;
+    background: url('/images/blue-pink.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    color: var(--textColor);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    font-weight: 500; 
+    margin: 10px;
+    text-align: center;
+}
+main {
+    padding: 20px; 
+}
+
+/**********CARD**********/
+.card {
+    background-color: #23262b;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+/**********TYPOGRAPHY**********/
+#userName {
+    font-weight: 800; /*bold*/
+}
+#description {
+    font-weight: 600;
+}
+a {
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+/**********PROFILE PICTURE**********/
+#profile {
+    border-radius: 50%; /*round image*/
+    height: 130px;
+    margin: 10px auto;
+    width: 130px;
+}
+
+/**********SOCIAL**********/
+.social a {
+    border-radius: 10px;
+    border: 2px solid var(--textColor);
+    display: block; /*each link takes a whole line*/
+    margin: 10px;
+    padding: 10px; 
+    transition: all 0.3s ease-in-out;
+        }
+
+ .social a:hover {
+ background-color: #eee;
+ color: #000;}
+
+/**********ICONS**********/
+.icons {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.icons a {
+    padding: 10px 20px;
+}
+
+/**********ALGORAND**********/
+#natmangle-lg {
+    height: 30px;
+    padding-top: 5px;
+}
+
+/**********BUY ME A COFFEE**********/
+#coffee {
+    background: #FFDD00;
+    border-radius: 10px;
+    border: 2px solid #FFDD00;
+    color: black;
+    font-family: 'Cookie', cursive;
+    font-size: 24px;
+}
+
+/**********FOOTER**********/
+footer a {
+    color: #FFDD00;
+    font-weight: 600;
+    text-decoration: none; 
+}
+#woro-woro{
+    background-color: #005EB8;
+    border-color: #005EB8;;
+}
