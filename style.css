@@ -83,7 +83,9 @@ a {
     height: 30px;
     padding-top: 5px;
 }
-
+#natmangle-lg a:hover {
+ background-color: #d2d2;
+ color: #fff;}
 /**********BUY ME A COFFEE**********/
 #coffee {
     background: #FFDD00;
